@@ -1,1 +1,0 @@
-$(".burger").on("click",(()=>{$(".menu__list").toggleClass("active")})),$(window).on("scroll",(function(){$(window).scrollTop()<400?$(".header").removeClass("fixed"):$(".header").addClass("fixed")}));
